@@ -7,7 +7,7 @@ skills:
 - XFLR5
 - Aircraft Analysis
 - Prototyping
-main-image: /prototype_RC.png
+main-image: /test.png
 ---
 
 ---
