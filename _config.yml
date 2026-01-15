@@ -19,7 +19,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
   softwares, such as SolidWorks and ANSYS. In addition to technical softwares, I also have a deep understanding of Arduino and MATLAB to develop complex systems and controls. I am passionate about applying engineering principles to solve complex problems and have demonstrated success in improving operational efficiency through
   innovative design.
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: 
 
 
 # Link your resume
@@ -31,7 +31,7 @@ resume-url: https://drive.google.com/file/d/1mp0RKrokjeQyZIZOWdEiCZb0oaEK-Si9/vi
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
   linkedin: jay-patel-4a87ab220    # https://www.linkedin.com/in/{your url slug} 
-  github: Jay-Patel-Engineer    # https://github.com/{your url slug} 
+  github:     # https://github.com/{your url slug} 
   stackoverflow:       # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
@@ -57,7 +57,8 @@ skills:
     - Breadboarding for Circuit Testing
   - category: Design Standards / Practices
     tools:
-    - GD&T ASME Y14
+    - GD&T
+    - ASME
     - ISO Fits and Tolerances
 
 
