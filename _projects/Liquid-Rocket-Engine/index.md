@@ -32,10 +32,12 @@ The injector plate, thrust chamber, and solenoid valves underwent an additional 
 <span style="font-size: 20px">Oxidizer Cold Flow Testing</span>
 {% include youtube-video.html id="0Mt1T-wTBKM" autoplay= "false"%}
 <span style="font-size: 20px">Fuel Cold Flow Testing</span>
+
 <br>
 The thrust chamber has been designed in order to withstand a pressure of 300 psi. To ensure its structural integrity as well as its seal, hydrostatic testing was performed. This test consisted of plugging all exit points on the thrust chamber and then pumping water via a hand pump. The final results of this test show that the thrust chamber can sustain a pressure of 500 psi for at least two minutes, which is more than enough for the planned five-second burn. 
 {% include youtube-video.html id="54BqEur4c8U" autoplay= "false"%}
 <span style="font-size: 20px">Thrust Chamber Hydrostatic Testing</span>
+
 <br>
 The solenoid valves were tested for functionality, confirmation of the rated pressure, and correct actuation timings. Once these three components were tested, trial runs of the hot fire began.
 {% include youtube-video.html id="tlTq_UFrETE" autoplay= "false"%}
