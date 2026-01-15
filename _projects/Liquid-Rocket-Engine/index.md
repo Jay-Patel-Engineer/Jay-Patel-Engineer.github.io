@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bipropellant Liquid Rocket Engine
-description: The development of a liquid rocket engine utilizing kerosene and nitrous oxide as the fuel and oxidizer. The development included the design and manufacturing of the Thrust Chamber, Thrust Stand, Plumbing, and Electrical Systems.
+description: The development of a liquid rocket engine utilizing kerosene and nitrous oxide as the fuel and oxidizer. The development included the design, manufacturing, and testing of the Thrust Chamber, Thrust Stand, and Plumbing System.
 skills: 
 - Fluid Flow
 - Thermodynamics
@@ -9,14 +9,15 @@ skills:
 - Systems and Control
 - Manufacturing
 - CEA Analysis
+- Data Collection and Analysis
 main-image: /LRE.png 
 ---
 
 ---
 ## Initial Project Conditions
-Beyond the development of a liquid rocket engine, three constraints were also included in the initial request for the project. These constraints include a target performance metric, propellant sourcing, and a budget. The requested performance metric is defined by a target thrust of 300 Newtons. The propellant sourcing constraint outlines the use of propellants that can be stored and used without the need for cryogenics. Finally, the initial proposed budget is $1,000. All parts are also manufactured with aluminum for ease of manufacturing and cost unless stated otherwise.
+Beyond the development of a liquid rocket engine, three constraints were also included in the initial request for the project. These constraints include a target performance metric, propellant storage, and a budget. The requested performance metric is defined by a target thrust of 300 Newtons. The propellant sourcing constraint outlines the use of propellants that can be stored and used without the need for cryogenics. Finally, the initial proposed budget is $1,000. All parts are also manufactured with aluminum for ease of manufacturing and cost unless stated otherwise.
 ## Manufacturing
-The manufacturing process primarily utilized a lathe, however some parts were modified using a vertical mill. Before beginning manufacturing, a tolerance needed to be decided to improve machining feasability. Due to the simple nature of most of the parts, tolerancing was simply determined using ISO 2768 as a guide. While the different parts need to be fitted together, they did not need to be perfect. The most crucial fit of the complete assembly is the seal created between the injector plate and the combustion chamber. However, this seal was later reinforced by a set of O-Rings. The second most important tolerances are the ones that govern the diamteter of the orifices located on the injector plate. These orifices control the flow rate of propellants and are sized to achieve the neccessary flow rate for efficient combustion. A cylindricity tolerance was applied to these orifices.
+The manufacturing process primarily utilized a lathe; however, some parts were modified using a vertical mill. Before beginning manufacturing, a tolerance needed to be decided to improve machining feasibility. Due to the simple nature of most of the parts, tolerancing was simply determined using ISO 2768 as a guide. While the different parts need to be fitted together, they do not need to be perfect. The most crucial fit of the complete assembly is the seal created between the injector plate and the combustion chamber. However, this seal was later reinforced by a set of O-rings. The second most important tolerances are the ones that govern the diameter of the orifices located on the injector plate. These orifices control the flow rate of propellants and are sized to achieve the necessary flow rate for efficient combustion. A cylindricity tolerance was applied to these orifices.
 {% include image-gallery.html images="nozzle_holder.png, nozzle_insert.png" height="400"%}
 <span style="font-size: 20px">Nozzle Holder and Nozzle Insert</span>
 {% include image-gallery.html images="assembled_chamber.png" height="400"%}
@@ -26,15 +27,21 @@ The manufacturing process primarily utilized a lathe, however some parts were mo
 {% include image-gallery.html images="assembled_stand.png" height="400"%}
 <span style="font-size: 20px">Assembled Thrust Stand Without Mounted Plumbing System or Thrust Chamber</span>
 ## Testing
-The injector plate, thrust chamber, and solenoid valves underwent an additional round of testing to ensure proper functionality. A cold flow testing procedure was used to determine the efficieny of the injector plate. This test consisted of pumping water through the injection plate to visualize the impingment of the two propellant streams. The valve timings can also be experimentally determined through cold flow testing as well. 
+The injector plate, thrust chamber, and solenoid valves underwent an additional round of testing prior to the hot fire to ensure proper functionality. A cold flow testing procedure was used to determine the efficiency of the injector plate. This test consisted of pumping water through the injection plate to visualize the impingement of the two propellant streams. The valve timings can also be experimentally determined through cold flow testing as well. 
 {% include youtube-video.html id="IlmzLuZ_n98" autoplay= "false"%}
 <span style="font-size: 20px">Oxidizer Cold Flow Testing</span>
-
-
-https://github.com/user-attachments/assets/006b75e9-a1ea-4c81-88b1-d4ac157b9cad
-
-
+{% include youtube-video.html id="0Mt1T-wTBKM" autoplay= "false"%}
 <span style="font-size: 20px">Fuel Cold Flow Testing</span>
+The thrust chamber has been designed in order to withstand a pressure of 300 psi. To ensure its structural integrity as well as its seal, hydrostatic testing was performed. This test consisted of plugging all exit points on the thrust chamber and then pumping water via a hand pump. The final results of this test show that the thrust chamber can sustain a pressure of 500 psi for at least two minutes, which is more than enough for the planned five-second burn. 
+{% include youtube-video.html id="54BqEur4c8U" autoplay= "false"%}
+<span style="font-size: 20px">Thrust Chamber Hydrostatic Testing</span>
+The solenoid valves were tested for functionality, confirmation of the rated pressure, and correct actuation timings. Once these three components were tested, trial runs of the hot fire began.
+{% include youtube-video.html id="tlTq_UFrETE" autoplay= "false"%}
+<span style="font-size: 20px">Test Fire 1</span>
+{% include youtube-video.html id="xCFsjYxbUxk" autoplay= "false"%}
+<span style="font-size: 20px">Test Fire 2</span>
+---
+The following sections contain in-depth analysis and demonstrate the design process of major components.
 ## CEA Analysis
 Of the propellants readily available without the need for cryogenic storage, kerosene and nitrous oxide best fit this description. To determine the several other parameters needed to begin the design of the thrust chamber, NASA's CEARUN software was utilized. This software allows for quick calculations of several constants related to the gas produced after combustion, such as its temperature, specific heat, and specific impulse. By varying the initial chamber pressure, the relationship between specific impulse, oxidizer-to-fuel ratio, and chamber temperature can be analyzed. While the ideal design would use an oxidizer-to-fuel ratio of about 7, the temperature generated by the combustion would be too high. Thus, a ratio of 2.3 was selected.
 {% include image-gallery.html images="CEA_Analysis.png" height="400"%}
@@ -77,7 +84,7 @@ The main design philosophy behind the thrust stand is that it should be able to 
 {% include image-gallery.html images="thrust_stand.png" height="400"%}
 <span style="font-size: 20px">Assembled Thrust Stand</span>
 ## Plumbing System
-Alongside the injector plate, the plumbing system is also one of the most vital systems. Due to the volatility of the propellants, the plumbing system should be designed in a manner that ensures the propellant never mixes before crossing the injector plate. The lines should also always be purged with an inert gas to ensure no propellant is left in the system before and after a test fire. This can be achieved easily by having separate plumbing systems for each propellant. However, this method results in a larger manufacturing cost due to the need to purge both systems separately. In order to reduce manufacturing cost while maintaining product efficiency, a single plumbing system was designed. Before designing the plumbing system, some considerations concerning the propellant delivery method must be made. In the case of nitrous oxide, due to its high vapor pressure, nitrous oxide is a self-pressurizing gas. This allows nitrous oxide to travel to the injector plate by simply opening the valve. Kerosene, however, does not follow this logic. The typical way to deliver kerosene from its tank to the injector plate is via a pump. However, pumps can be costly and complicated. Another method, adn the method that was selected, is to use a different pressurized gas to propel the kerosene through the plumbing system. This gas would need to be inert so that it does not react with the kerosene while pressurizing. The best gas for this case would be compressed nitrogen. Nitrogen would also double as the purging gas.
+Alongside the injector plate, the plumbing system is also one of the most vital systems. Due to the volatility of the propellants, the plumbing system should be designed in a manner that ensures the propellant never mixes before crossing the injector plate. The lines should also always be purged with an inert gas to ensure no propellant is left in the system before and after a test fire. This can be achieved easily by having separate plumbing systems for each propellant. However, this method results in a larger manufacturing cost due to the need to purge both systems separately. In order to reduce manufacturing cost while maintaining product efficiency, a single plumbing system was designed. Before designing the plumbing system, some considerations concerning the propellant delivery method must be made. In the case of nitrous oxide, due to its high vapor pressure, nitrous oxide is a self-pressurizing gas. This allows nitrous oxide to travel to the injector plate by simply opening the valve. Kerosene, however, does not follow this logic. The typical way to deliver kerosene from its tank to the injector plate is via a pump. However, pumps can be costly and complicated. Another method, and the method that was selected, is to use a different pressurized gas to propel the kerosene through the plumbing system. This gas would need to be inert so that it does not react with the kerosene while pressurizing. The best gas for this case would be compressed nitrogen. Nitrogen would also double as the purging gas.
 {% include image-gallery.html images="P&ID.png" height="400"%}
 <span style="font-size: 20px">Final P&ID Including all Redundancy Valves</span>
 {% include image-gallery.html images="PlumbingCAD.png" height="400"%}
