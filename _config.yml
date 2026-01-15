@@ -13,7 +13,7 @@ title: Jay Patel's Portfolio # This is what shows up in the tab of the browser
 
 # Hero Section
 name: Jay Patel
-headline: headline message
+headline: An Aerospace Eningeer
 description: >- # dont remove this line. this will ignore all new lines until the next section
   I am an Aerospace Engineer with a strong foundation in aerodynamics, manufacturing, and propulsion analysis. I have led the development and design of several fluid flow components spanning from complex injection methods to simple airfoil optimization. My technical experience includes heavy use of CAD and analysis
   softwares, such as SolidWorks and ANSYS. In addition to technical softwares, I also have a deep understanding of Arduino and MATLAB to develop complex systems and controls. I am passionate about applying engineering principles to solve complex problems and have demonstrated success in improving operational efficiency through
@@ -54,7 +54,7 @@ skills:
     tools:
     - CNC
     - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
+    - Breadboarding for Circuit Testing
   - category: Design Standards / Practices
     tools:
     - GD&T ASME Y14
@@ -62,7 +62,7 @@ skills:
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key:   https://formspree.io/f/xykkzway
 
 
 
