@@ -27,11 +27,7 @@ The manufacturing process primarily utilized a lathe, however some parts were mo
 <span style="font-size: 20px">Assembled Thrust Stand Without Mounted Plumbing System or Thrust Chamber</span>
 ## Testing
 The injector plate, thrust chamber, and solenoid valves underwent an additional round of testing to ensure proper functionality. A cold flow testing procedure was used to determine the efficieny of the injector plate. This test consisted of pumping water through the injection plate to visualize the impingment of the two propellant streams. The valve timings can also be experimentally determined through cold flow testing as well. 
-
-
-https://github.com/user-attachments/assets/a58bc218-1bff-433f-af45-da2d9b4ab511
-
-
+{% include youtube-video.html id="IlmzLuZ_n98" autoplay= "false"%}
 <span style="font-size: 20px">Oxidizer Cold Flow Testing</span>
 
 
