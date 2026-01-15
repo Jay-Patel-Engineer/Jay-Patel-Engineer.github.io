@@ -25,16 +25,18 @@ The manufacturing process primarily utilized a lathe; however, some parts were m
 {% include image-gallery.html images="machined_injector.png" height="400"%}
 <span style="font-size: 20px">Pintle Injector</span>
 {% include image-gallery.html images="assembled_stand.png" height="400"%}
-<span style="font-size: 20px">Assembled Thrust Stand Without Mounted Plumbing System or Thrust Chamber</span>
+<span style="font-size: 20px">Assembled Thrust Stand</span>
 ## Testing
 The injector plate, thrust chamber, and solenoid valves underwent an additional round of testing prior to the hot fire to ensure proper functionality. A cold flow testing procedure was used to determine the efficiency of the injector plate. This test consisted of pumping water through the injection plate to visualize the impingement of the two propellant streams. The valve timings can also be experimentally determined through cold flow testing as well. 
 {% include youtube-video.html id="IlmzLuZ_n98" autoplay= "false"%}
 <span style="font-size: 20px">Oxidizer Cold Flow Testing</span>
 {% include youtube-video.html id="0Mt1T-wTBKM" autoplay= "false"%}
 <span style="font-size: 20px">Fuel Cold Flow Testing</span>
+<br>
 The thrust chamber has been designed in order to withstand a pressure of 300 psi. To ensure its structural integrity as well as its seal, hydrostatic testing was performed. This test consisted of plugging all exit points on the thrust chamber and then pumping water via a hand pump. The final results of this test show that the thrust chamber can sustain a pressure of 500 psi for at least two minutes, which is more than enough for the planned five-second burn. 
 {% include youtube-video.html id="54BqEur4c8U" autoplay= "false"%}
 <span style="font-size: 20px">Thrust Chamber Hydrostatic Testing</span>
+<br>
 The solenoid valves were tested for functionality, confirmation of the rated pressure, and correct actuation timings. Once these three components were tested, trial runs of the hot fire began.
 {% include youtube-video.html id="tlTq_UFrETE" autoplay= "false"%}
 <span style="font-size: 20px">Test Fire 1</span>
