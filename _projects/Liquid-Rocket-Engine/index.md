@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bi-propellant Liquid Rocket Engine
+title: Bipropellant Liquid Rocket Engine
 description: The development of a liquid rocket engine utilizing kerosene and nitrous oxide as the fuel and oxidizer. The development included the design and manufacturing of the Combustion Chamber, Injection Plate, Thrust Stand, Plumbing, and Electrical Systems.
 skills: 
 - Fluid Flow
