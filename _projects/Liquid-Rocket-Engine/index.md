@@ -14,7 +14,7 @@ main-image: /LRE.png
 
 ---
 ## Thrust Chamber
-The thrust chamber is an assembly of the combustion chamber, nozzle, and injection plate. The thrust chamber houses all the components required to ensure efficient propellant injection, propellant combustion, and combustion exhaust.
+The thrust chamber is an assembly of the combustion chamber, nozzle, and injection plate. The thrust chamber houses all the components required to ensure efficient propellant injection, propellant combustion, and combustion exhaust. Each component's design process and analysis is described in detail in the following sections.
 {% include image-gallery.html images="thrust_chamber.png" height="400"%}
 <span style="font-size: 10px">Internal View of Assembled Thrust Chamber</span>
 ### PH Subsection
