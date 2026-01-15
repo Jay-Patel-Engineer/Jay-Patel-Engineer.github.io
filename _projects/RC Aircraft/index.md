@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design and Analysis of a Prototype RC Aircraft
-description: A RC aircraft developed by a small team of individuals in an effort to more thorougly understand important aircraft metrics. The design explores all relavant aircraft metrics including the initial modeling, static stability, dynamic stability, and steady longitudinal flight.
+description: An RC aircraft developed by a small team of individuals in an effort to more thoroughly understand important aircraft metrics. The design explores all relevant aircraft metrics, including the initial modeling, static stability, dynamic stability, and steady longitudinal flight.
 skills: 
 - CAD Modeling
 - XFLR5
@@ -12,9 +12,9 @@ main-image: /prototype_RC.png
 
 ---
 ## Project Introduction
-The goal of this project is to design an aircraft that is capable of flight. In the case of this project, succesful performance metrics are defined as the aircraft's ability to maintain static stability, dynamic stability, and steady longitudinal flight.
+The goal of this project is to design an aircraft that is capable of flight. In the case of this project, successful performance metrics are defined as the aircraft's ability to maintain static stability, dynamic stability, and steady longitudinal flight.
 ## Initial Aircraft Modeling
-By modeling the aircraft using XFLR5 and Solidworks, a baseline set of parameters can be obtained that are essential for all of the calculations necessary. By using SolidWorks, it is possible to extract a simulated inertia tensor for the aircraft. These moments of inertia can then be inputted into XFLR5 to simulate the aircraft under an airspeed of 10 m/s.
+By modeling the aircraft using XFLR5 and Solidworks, a baseline set of parameters can be obtained that are essential for all of the calculations necessary. By using SolidWorks, it is possible to extract a simulated inertia tensor for the aircraft. These moments of inertia can then be input into XFLR5 to simulate the aircraft under an airspeed of 10 m/s.
 {% include image-gallery.html images="CAD_aircraft.png" height="400"%}
 <span style="font-size: 15px">SolidWorks Model of Aircraft and Inertia Tensor</span>
 {% include image-gallery.html images="XFLR5_sim.png" height="400"%}
@@ -29,9 +29,9 @@ The simulation results of XFLR5 can be seen below. These results will be the mai
 {% include image-gallery.html images="XFLR5_CoefL.png, XFLR5_CoefM.png" height="400"%}
 <span style="font-size: 15px">Coefficients of Lift and Moment as a Function of Angle of Attack</span>
 <br>
-Static stability refers to the aircraft's ability to return to the initial equilibrium state after an external disturbance. This parameter is important to ensure random external forces do not result in the aircraft losing control. Static stability can be calculated by determining if the coefficient of moment has a negative slope with respect to angle of attack. The initial calculations based on the physical prototype resulted in static instability. However, after adjusting the aircraft's elavator angles and applying these modifications to the initial XFLR5 simulations, a negative coefficient of moment slope was found.
+Static stability refers to the aircraft's ability to return to the initial equilibrium state after an external disturbance. This parameter is important to ensure random external forces do not result in the aircraft losing control. Static stability can be calculated by determining if the coefficient of moment has a negative slope with respect to the angle of attack. The initial calculations based on the physical prototype resulted in static instability. However, after adjusting the aircraft's elevator angles and applying these modifications to the initial XFLR5 simulations, a negative coefficient of moment slope was found.
 ## Dynamic Stability
-Similar to static stability, dynamic stability also refers to an aircraft's ability to return to the initial equilibrium state after an external disturbance. Unlike static stability, dynamic stability must achieve equilibrium over a period of time. Because dynamic stability can apply to both longitudinal and lateral directions, both calculations must be made serperatly.
+Similar to static stability, dynamic stability also refers to an aircraft's ability to return to the initial equilibrium state after an external disturbance. Unlike static stability, dynamic stability must achieve equilibrium over a period of time. Because dynamic stability can apply to both longitudinal and lateral directions, both calculations must be made separately.
 {% include image-gallery.html images="MATLAB_dynamiclat.png, MATLAB_dynamiclong.png" height="400"%}
 <span style="font-size: 15px">Calculations of Dynamic Stability Using MATLAB (Left: Lateral, Right: Longitudinal)</span>
 {% include image-gallery.html images="XFLR5_dynamiclat.png, XFLR5_dynamiclong.png" height="400"%}
