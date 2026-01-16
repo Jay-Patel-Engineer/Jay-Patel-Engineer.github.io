@@ -27,3 +27,7 @@ The simulation results of XFLR5 can be seen below. These results will be the mai
 ## Static Stability Analysis
 {% include image-gallery.html images="xflrcoefl.png, xflrcoefm.png" height="400"%}
 <span style="font-size: 15px">Coefficients of Lift and Moment as a Function of Angle of Attack</span>
+<br>
+Static stability refers to the aircraft's ability to return to the initial equilibrium state after an external disturbance. This parameter is important to ensure random external forces do not result in the aircraft losing control. Static stability can be calculated by determining if the coefficient of moment has a negative slope with respect to the angle of attack. The initial calculations based on the physical prototype resulted in static instability. However, after adjusting the aircraft's elevator angles and applying these modifications to the initial XFLR5 simulations, a negative coefficient of moment slope was found.
+## Dynamic Stability Analysis
+Similar to static stability, dynamic stability also refers to an aircraft's ability to return to the initial equilibrium state after an external disturbance. Unlike static stability, dynamic stability must achieve equilibrium over a period of time. Because dynamic stability can apply to both longitudinal and lateral directions, both calculations must be made separately.
