@@ -9,3 +9,7 @@ skills:
 - Prototyping
 main-image: /prototypeRC.png
 ---
+
+---
+{% include image-gallery.html images="cadaircraft.png" height="400"%}
+<span style="font-size: 15px">SolidWorks Model of Aircraft and Inertia Tensor</span>
