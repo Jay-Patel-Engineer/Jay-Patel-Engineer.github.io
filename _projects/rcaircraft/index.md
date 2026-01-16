@@ -22,3 +22,6 @@ By modeling the aircraft using XFLR5 and SolidWorks, a baseline set of parameter
 The simulation results of XFLR5 can be seen below. These results will be the main method of sanity checking the aircraft's performance as the project develops.
 {% include image-gallery.html images="xflrdragpolar.png" height="400"%}
 <span style="font-size: 15px">Drag Polar Calculations of Aircraft from XFLR5</span>
+{% include image-gallery.html images="xflrclcd.png" height="400"%}
+<span style="font-size: 15px">Ratio of Cl and Cd as a Function of Angle of Attack</span>
+## Static Stability Analysis
