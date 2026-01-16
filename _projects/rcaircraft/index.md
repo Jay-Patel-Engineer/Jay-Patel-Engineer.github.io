@@ -18,3 +18,7 @@ By modeling the aircraft using XFLR5 and SolidWorks, a baseline set of parameter
 <span style="font-size: 15px">SolidWorks Model of Aircraft and Inertia Tensor</span>
 {% include image-gallery.html images="xflrsim.png" height="400"%}
 <span style="font-size: 15px">Simulation using XFLR5</span>
+<br>
+The simulation results of XFLR5 can be seen below. These results will be the main method of sanity checking the aircraft's performance as the project develops.
+{% include image-gallery.html images="xflrdragpolar.png" height="400"%}
+<span style="font-size: 15px">Drag Polar Calculations of Aircraft from XFLR5</span>
