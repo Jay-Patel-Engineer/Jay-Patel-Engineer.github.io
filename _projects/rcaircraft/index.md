@@ -33,3 +33,5 @@ Static stability refers to the aircraft's ability to return to the initial equil
 Similar to static stability, dynamic stability also refers to an aircraft's ability to return to the initial equilibrium state after an external disturbance. Unlike static stability, dynamic stability must achieve equilibrium over a period of time. Because dynamic stability can apply to both longitudinal and lateral directions, both calculations must be made separately.
 {% include image-gallery.html images="matlabdynamiclat.png, matlabdynamiclong.png" height="400"%}
 <span style="font-size: 15px">Calculations of Dynamic Stability Using MATLAB (Left: Lateral, Right: Longitudinal)</span>
+{% include image-gallery.html images="xflrdynamiclat.png, xflrdynamiclong.png" height="400"%}
+<span style="font-size: 15px">Verification of MATLAB Calculation Using XFLR5 (Left: Lateral, Right: Longitudinal)</span>
