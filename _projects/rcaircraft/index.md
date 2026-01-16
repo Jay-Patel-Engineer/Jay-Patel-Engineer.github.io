@@ -16,3 +16,5 @@ The goal of this project is to design an aircraft that is capable of flight. In 
 By modeling the aircraft using XFLR5 and SolidWorks, a baseline set of parameters can be obtained that are essential for all of the calculations necessary. By using SolidWorks, it is possible to extract a simulated inertia tensor for the aircraft. These moments of inertia can then be input into XFLR5 to simulate the aircraft under an airspeed of 10 m/s.
 {% include image-gallery.html images="cadaircraft.png" height="400"%}
 <span style="font-size: 15px">SolidWorks Model of Aircraft and Inertia Tensor</span>
+{% include image-gallery.html images="xflrsim.png" height="400"%}
+<span style="font-size: 15px">Simulation using XFLR5</span>
