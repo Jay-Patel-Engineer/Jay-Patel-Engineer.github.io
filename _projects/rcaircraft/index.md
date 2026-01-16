@@ -25,3 +25,5 @@ The simulation results of XFLR5 can be seen below. These results will be the mai
 {% include image-gallery.html images="xflrclcd.png" height="400"%}
 <span style="font-size: 15px">Ratio of Cl and Cd as a Function of Angle of Attack</span>
 ## Static Stability Analysis
+{% include image-gallery.html images="xflrcoefl.png, xflrcoefm.png" height="400"%}
+<span style="font-size: 15px">Coefficients of Lift and Moment as a Function of Angle of Attack</span>
