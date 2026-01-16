@@ -42,3 +42,5 @@ The final performance criteria for this project is to identify the aircraft's pe
 ## Final Product Images
 {% include image-gallery.html images="prototypeaircraft.png" height="400"%}
 <span style="font-size: 15px">Model Aircraft without Motors</span>
+{% include image-gallery.html images="flightaircraft.png" height="400"%}
+<span style="font-size: 15px">Aircraft Mid-Flight</span>
