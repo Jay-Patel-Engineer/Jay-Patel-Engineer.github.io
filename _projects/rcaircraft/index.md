@@ -36,6 +36,7 @@ Similar to static stability, dynamic stability also refers to an aircraft's abil
 {% include image-gallery.html images="xflrdynamiclat.png, xflrdynamiclong.png" height="400"%}
 <span style="font-size: 15px">Verification of MATLAB Calculation Using XFLR5 (Left: Lateral, Right: Longitudinal)</span>
 ## Steady Longitudinal Flight
-The final performance criteria for this project is to identify the aircraft's performance in steady longitudinal flight. To conduct this analysis, a flight envelope can be constructed to find the upper and lower bounds of steady longitudinal flight. In order to create an accurate flight envelope, a few parameters must be collected: The minimum and maximum velocities as well as the stall velocities. The minimum and maximum velocities can be obtained using the minimum and maximum dynamic pressure found by using the available thrust. The stall velocity can be found using C_Lmax found in earlier simulations.
+The final performance criteria for this project is to identify the aircraft's performance in steady longitudinal flight. To conduct this analysis, a flight envelope can be constructed to find the upper and lower bounds of steady longitudinal flight. In order to create an accurate flight envelope, a few parameters must be collected: The minimum and maximum velocities as well as the stall velocities. The minimum and maximum velocities can be obtained using the minimum and maximum dynamic pressure found by using the available thrust. The stall velocity can be found using CL_max found in earlier simulations.
 {% include image-gallery.html images="flightenvelope.png" height="400"%}
 <span style="font-size: 15px">Complete Flight Envelope up to a Max Altitude of 250 Meters</span>
+## Final Product Images
