@@ -40,3 +40,5 @@ The final performance criteria for this project is to identify the aircraft's pe
 {% include image-gallery.html images="flightenvelope.png" height="400"%}
 <span style="font-size: 15px">Complete Flight Envelope up to a Max Altitude of 250 Meters</span>
 ## Final Product Images
+{% include image-gallery.html images="prototypeaircraft.png" height="400"%}
+<span style="font-size: 15px">Model Aircraft without Motors</span>
